@@ -1,0 +1,73 @@
+.modelos{
+    width: 100%;
+    position: relative;
+}
+.modelos-btn{
+    position: absolute;
+    top: 130px;
+    left: 54px;
+    width: 165px;
+    height: 62px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+.modelos-btn:hover{
+    background-color: #f1faee;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.promociones{
+    width: 100%;
+    margin: 40px 0px;
+    padding-top: 80px;
+    display: flex;
+}
+.caja{
+    width: 30%;
+    padding: 20px 60px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+}
+.titulo{
+    font-size: 2rem;
+}
+.titulo, .texto{
+    margin-top: 70px;
+}
+.btn-promociones{
+    width: 50%;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    background: #000;
+    margin-top: 90px;
+}
+.subtitulo{
+    margin-left: 50px;
+    font-size: 1.8rem;
+}
+.seccion-destacados{
+    padding-top: 80px;
+}
+.destacados{
+    width: 100%;
+    padding: 10px 50px 30px 30px;
+    display: flex;
+    box-sizing: border-box;
+}
+.card{
+    width: 400px;
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+.example-card{
+    background-color: #000;
+    height: 300px;
+}
+.destacados-img{
+    width: 100%;
+}

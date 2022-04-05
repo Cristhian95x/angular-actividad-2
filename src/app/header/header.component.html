@@ -1,0 +1,17 @@
+<header>
+    <div class="logo">
+        <img src="../../assets/audi2.png" class="img">
+    </div>
+    <nav>
+        <button mat-button [matMenuTriggerFor]="menu" mat-mini-fab color="accent"
+                class="mat-btn">
+            <mat-icon>menu</mat-icon>
+          </button>
+        <mat-menu #menu="matMenu" class="mat-menu">
+          <button mat-menu-item><a href="#modelos">Modelos</a></button>
+          <button mat-menu-item><a href="#promociones">Promociones</a></button>
+          <button mat-menu-item><a href="#destacados">Destacados</a></button>
+        </mat-menu>
+    </nav>
+</header>
+
